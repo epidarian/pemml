@@ -46,5 +46,5 @@ Folders will attempt to include various (incomplete) implementations of pemml.
   
   8a. Escape \ with \
   
-
+9. When applicable, a single block of JSON at the beginning of the text file shall be used to configure rendering settings.
 
