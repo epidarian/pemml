@@ -40,7 +40,7 @@ Folders will attempt to include various (incomplete) implementations of pemml.
   
 6. Pictures shall be able to be linked either by base64 or by normal html-style slop it in via url. 
 
-7. Using | in a line shall split content equally from left to right and attempt to justify the result.
+7. Using | in a line shall split content equally in columns from left to right and attempt to justify the result.
 
 8. Escape characters with \
   
