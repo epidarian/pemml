@@ -1,0 +1,27 @@
+
+1. Thou shalt use the default github markdown syntax first and foremost.
+  1a. Thou shalt use the pagination or print CSS or SCSS schematic to define your layout's physical space. Or don't I don't care.
+2. Thou shalt indicate content pages with =( )= and use the parenthesis to indicate what kind of content will live there. 
+  e.g.: =(?csv Roles)= should indicate a page titled "Roles" where the content is a table created from csv data. A page break will be automatically inserted before the next =( )=
+  2a. When a data type is not defined the text inside that page shall be considered prose and therefore markdown rules shall apply.
+  2b. When the data type is # the title will be used as a header for that section. 
+    2b.a. Markdown header designations may be used for styling purposes.
+3. Thou shalt indicate scriptable data with {}
+  3a. When thy brackets are used thou shalt put them on their own damn line and properly indent your data inside.
+  3b. When scriptable data is csv thou shalt indicate table headers by prepending # to the line. 
+    3b.a. Markdown header designations may be used for styling purposes.
+  3c. csv data values for table formatting shall be all like:
+    e.g.: "foo","bar"
+    {
+      \# "Team Member","Role","Primary Contact"
+      "Johnny Charisma","Product Owner","1234567890"
+      "Johnny Smith","Product Smeller","N/A"
+    }
+4. Thou shalt never use JSON when CSV works better.
+5. Thy special holy icon =(! Index)= shall display a compiled index of thar document that shall be properly tiered according to page designations and then markdown title designations in that order. 
+  e.g.: 1. (page title), 2. # , 3. ## , 4. ### , 5. #### , 6. #####
+    Document Title ........ pages long
+      Page Title .......... page#
+        # ................. page#
+          ## .............. page#
+        ET.Cetera
