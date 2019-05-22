@@ -28,7 +28,9 @@ Folders will attempt to include various (incomplete) implementations of pemml.
     
   3c. csv data values for table formatting shall be all like (See the text file)
   
-  3d. Thou shalt import scriptable data by indicating the url in an additional (data type){url} e.g.: (?csv){www.numbers.net/all.csv}
+  3d. Thou shalt import scriptable data by indicating the url in an additional (data type){url} 
+  
+  e.g.: (?csv){www.numbers.net/all.csv}
   
 4. Thou shalt never use JSON when CSV works better.
 
