@@ -5,7 +5,7 @@ Folders will attempt to include various (incomplete) implementations of pemml.
 
 ==========
 
-1. Thou shalt use the default github markdown syntax first and foremost.
+1. Thou shalt never use the default github markdown syntax first and foremost.
 
   1a. Thou shalt use the pagination or print CSS or SCSS schematic to define your layout's physical space. Or don't I don't care.
 
